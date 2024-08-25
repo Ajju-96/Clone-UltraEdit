@@ -1,0 +1,141 @@
+.logo {}
+
+        .logo img {
+            width: 164px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Segoe UI";
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .right ul li span {
+            padding: 0 5px;
+        }
+
+        .first {
+            display: flex;
+            /* background-color: aqua; */
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            margin: 60px;
+            font-family: sans-serif;
+
+        }
+
+        .first span {
+            font-size: 40px;
+
+
+        }
+
+        .first span img {
+            width: 126px;
+
+        }
+
+        .first p {
+            font-size: 30px;
+            width: 80vw;
+            text-align: center;
+        }
+
+        .green-1 {
+            background-color: #5cb85c;
+        }
+
+        .blue {
+            background-color: red;
+        }
+
+        .btn {
+            padding: 9px 15px;
+            border-radius: 5px;
+            background-color: #00b6d1;
+            border: none;
+            color: white;
+            font-weight: 700;
+
+            margin: 12px 0;
+            cursor: pointer;
+        }
+        .btn a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .flax {
+            display: flex;
+        }
+
+        .small {
+            font-size: 12px;
+        }
+
+        .secound {
+            max-width: 70vw;
+            margin: auto;
+            
+        }
+
+        .item {
+            border-radius: 10px;
+            background-color: #F9F9F9;
+            padding: 20px 24px;
+
+
+            text-align: center;
+        }
+
+        .item-lang{
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 50px;
+            font-size: 28px;
+            
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 45px;
+        }
+
+        .download :nth-child(2){
+            font-size: 23px;
+        }
+
+        .download{
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .download{
+            padding: 0px 12px;
+        }
+
+        .download img{
+            width: 45px;
+        }
+
+        @media screen and (max-width: 1100px) {
+            .grid{
+                grid-template-columns: 1fr;
+                /* background-color: red; */
+            }
+        }
